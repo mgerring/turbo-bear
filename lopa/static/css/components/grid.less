@@ -1,0 +1,24 @@
+/* Herp derp grid, still needs work */
+
+.grid ( @columns, @margin : .038, @width : .0485 ) {
+	margin-right: percentage(@margin);
+	float: left;
+	min-height: 1px;
+	width: percentage( (@width * @columns) + (@margin * (@columns - 1) ) );
+}
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.row {
+	width: 100%;
+	max-width: 1140px;
+	min-width: 755px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.last {
+	margin-right: 0px;
+}
