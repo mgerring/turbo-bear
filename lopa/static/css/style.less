@@ -83,7 +83,7 @@
 		.grid(3);
 		text-align:right;
 	}
-	input {
+	input[type="text"], input[type="textarea"], select {
 		box-sizing:border-box;
 		-moz-box-sizing:border-box;
 		-webkit-box-sizing:border-box;
@@ -91,6 +91,10 @@
 		padding:0;
 		.grid(9);
 		.last();
+	}
+	input[type="submit"] {
+		width:500px;
+		margin:0 auto;
 	}
 	.errorlist {
 		margin:0;
