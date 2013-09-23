@@ -1,5 +1,10 @@
-<form method="POST" action="">
+<form method="POST" action="" id="signature_form">
 	{% csrf_token %}
-	{{form}}
+	{% for field in form %}
+        <div class="field-wrapper {{field.name}}-wrapper">
+            {{ field.errors }}
+            {{ field.label_tag }} {{ field }}
+        </div>
+    {% endfor %}
 	<input type="submit" value="Sign It!" />
 </form>

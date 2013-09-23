@@ -2,6 +2,103 @@
 @import url('components/grid.less');
 @import url('components/text.less');
 
-/* Site-specific styles */
+#main_header {
+	height:150px;
+	position:relative;
+	width:100%;
+	overflow:hidden;
+	border-bottom:3px solid #333;
+	margin-bottom:20px;
+	h1 {
+		color:red;
+		font-size:3em;
+		position:absolute;
+		text-align:center;
+		line-height:150px;
+		top:0;
+		left:0;
+		height:100%;
+		width:100%;
+	}
+}
+
+#header_image_container {
+	width:9999px;
+}
+
+#campaign_copy {
+	padding:0 20px;
+}
+
+#live_count {
+	.grid(12);
+	.last();
+	background:#444;
+	color:white;
+	margin-bottom:20px;
+}
+
+#signature_count, #leaderboard {
+	.grid(6);
+}
+
+#signature_count {
+	text-align:center;
+	font-size:1.1em;
+	text-transform:uppercase;
+	font-weight:bold;
+	.number {
+		font-size:4em;
+		line-height:1.1em;
+		color:red;
+		width:100%;
+		display:block;
+	}
+}
+
+#leaderboard {
+	margin:0;
+	padding:0;
+	.last();
+	h2 {
+		font-size:1.2em;
+		text-transform:uppercase;
+		margin-bottom:5px;
+		margin-top:3px;
+		color:red;
+	}
+	.states {
+		margin:0 0 0 20px;
+		padding:0;
+	}
+}
+
+#signature_form {
+	padding:0 20px;
+	.field-wrapper {
+		.grid(12);
+		.last();
+	}
+	label {
+		.grid(3);
+		text-align:right;
+	}
+	input {
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		margin:0;
+		padding:0;
+		.grid(9);
+		.last();
+	}
+	.errorlist {
+		margin:0;
+		padding:0;
+		li {
+			list-style-type:none;
+		}
+	}
+}
 
 @import url('components/util.less');

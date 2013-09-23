@@ -2258,3 +2258,106 @@ Traceback (most recent call last):
     states	= { 'state':state.state, 'count':state.count for state in states }
          	                                                ^
 SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 75, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/decorators.py", line 91, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 42, in count_signatures
+    state_list[state.count] += [state.state]
+KeyError: 8
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 75, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/decorators.py", line 91, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 47, in count_signatures
+    sorted_states = sorted([(key, value) for key, value in state_list.iteritems], lambda state: state[0])
+TypeError: 'builtin_function_or_method' object is not iterable
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 75, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/decorators.py", line 91, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 47, in count_signatures
+    sorted_states = sorted([(key, value) for key, value in state_list.iteritems()], lambda state: state[0])
+TypeError: <lambda>() takes exactly 1 argument (2 given)
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 75, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/decorators.py", line 91, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 29, in count_signatures
+    states  = StateCount.objects.leaderboard()
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 39, in leaderboard
+    states = self.filter(count__in=counts)
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 39, in leaderboard
+    states = self.filter(count__in=counts)
+  File "/usr/lib/python2.7/bdb.py", line 49, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python2.7/bdb.py", line 68, in dispatch_line
+    if self.quitting: raise BdbQuit
+BdbQuit
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 75, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/decorators.py", line 91, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 29, in count_signatures
+    states  = StateCount.objects.leaderboard()
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 39, in leaderboard
+    states = self.filter(count__in=counts)
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 39, in leaderboard
+    states = self.filter(count__in=counts)
+  File "/usr/lib/python2.7/bdb.py", line 49, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python2.7/bdb.py", line 68, in dispatch_line
+    if self.quitting: raise BdbQuit
+BdbQuit
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 75, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/decorators.py", line 91, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 29, in count_signatures
+    states  = StateCount.objects.leaderboard()
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 39, in leaderboard
+    states = self.filter(count__in=counts)
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 39, in leaderboard
+    states = self.filter(count__in=counts)
+  File "/usr/lib/python2.7/bdb.py", line 49, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python2.7/bdb.py", line 68, in dispatch_line
+    if self.quitting: raise BdbQuit
+BdbQuit
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 75, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/decorators.py", line 91, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 29, in count_signatures
+    states  = StateCount.objects.leaderboard()
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 40, in leaderboard
+    state_list = defaultdict(list)
+NameError: global name 'defaultdict' is not defined

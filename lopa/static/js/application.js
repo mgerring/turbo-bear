@@ -7,8 +7,8 @@ requirejs.config({
 requirejs(['vendor/jquery','vendor/jquery.color'], function() {
 	jQuery(function($){
 
-		var $signature_count = $('#signature_count');
-		var $leaderboard 	 = $('#leaderboard');
+		var $signature_count = $('#signature_count .number');
+		var $leaderboard 	 = $('#leaderboard .states');
 
 		function updateCount(flash) {
 			$.ajax({
@@ -32,7 +32,7 @@ requirejs(['vendor/jquery','vendor/jquery.color'], function() {
 					$leaderboard.empty();
 					$.each(response.states, function(i,state){
 						console.log(state);
-						$leaderboard.append( $('<li>').text(state.state+" ("+state.count+")") );
+						$leaderboard.append( $('<li>').text(state[1].join(', ')+" ("+state[0]+")") );
 					});
 				},
 				timeout:5000,

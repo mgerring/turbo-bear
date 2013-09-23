@@ -52,17 +52,48 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-
+        <header id="main_header">
         {% block header %}
-        <h1>STOP LOPA</h1>
+            <h1>STOP LOPA</h1>
+            <div id="header_image_container">
+                <img src="http://placekitten.com/g/200/150" />
+                <img src="http://placekitten.com/g/201/150" />
+                <img src="http://placekitten.com/g/203/150" />
+                <img src="http://placekitten.com/g/197/150" />
+                <img src="http://placekitten.com/g/205/150" />
+                <img src="http://placekitten.com/g/198/150" />
+                <img src="http://placekitten.com/g/190/150" />
+                <img src="http://placekitten.com/g/207/150" />
+                <img src="http://placekitten.com/g/200/150" />
+                <img src="http://placekitten.com/g/201/150" />
+                <img src="http://placekitten.com/g/203/150" />
+                <img src="http://placekitten.com/g/197/150" />
+                <img src="http://placekitten.com/g/210/150" />
+                <img src="http://placekitten.com/g/198/150" />
+                <img src="http://placekitten.com/g/190/150" />
+                <img src="http://placekitten.com/g/207/150" />
+                <img src="http://placekitten.com/g/200/150" />
+                <img src="http://placekitten.com/g/201/150" />
+                <img src="http://placekitten.com/g/203/150" />
+                <img src="http://placekitten.com/g/197/150" />
+                <img src="http://placekitten.com/g/210/150" />
+                <img src="http://placekitten.com/g/198/150" />
+                <img src="http://placekitten.com/g/190/150" />
+                <img src="http://placekitten.com/g/207/150" />
+            </div>
         {% endblock %}
+        </header>
 
+        <div id="main_content">
         {% block body %}
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+            <p>Hello world! This is HTML5 Boilerplate.</p>
         {% endblock %}
+        </div>
 
+        <footer id="main_footer">
         {% block footer %}
         {% endblock %}
+    </footer>
 
         <script data-main="{% get_static_prefix %}js/application.js" src="{% get_static_prefix %}js/vendor/requirejs-2.1.8.js"></script>
         <script type="text/javascript" charset="utf-8">
