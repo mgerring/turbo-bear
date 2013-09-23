@@ -2,7 +2,7 @@ from django.core.cache import cache
 from django.utils.cache import get_cache_key
 from django.http import HttpRequest
 from csv import DictReader
-import lopa
+from lopa.signatures.models import *
 import ipdb
 
 def _cache_key(path):
@@ -33,7 +33,7 @@ def load_zipcodes():
 	fucked = []
 	for item in reader:
 		if item['Decommisioned'] == 'false':
-			zipcode = lopa.signatures.models.ZipCode()
+			zipcode = ZipCode()
 			zipcode.zipcode = item['Zipcode']
 			zipcode.state 	= item['State']
 			zipcode.lat 	= item['Lat']
