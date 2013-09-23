@@ -16,3 +16,2245 @@ Traceback (most recent call last):
   File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/http/request.py", line 72, in get_host
     "Invalid HTTP_HOST header (you may need to set ALLOWED_HOSTS): %s" % host)
 SuspiciousOperation: Invalid HTTP_HOST header (you may need to set ALLOWED_HOSTS): localhost:8000
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 103, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 321, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/functional.py", line 29, in wrapper
+    result = func(*args)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import lopa.signatures.views.create. View does not exist in module lopa.signatures.views.
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 8, in <module>
+    url(r'^$', lopa.signatures.views.CreateSignature.as_view(), name='create'),
+NameError: name 'lopa' is not defined
+ERROR Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 8, in <module>
+    url(r'^$', lopa.signatures.views.CreateSignature.as_view(), name='create'),
+NameError: name 'lopa' is not defined
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 103, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 321, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/functional.py", line 29, in wrapper
+    result = func(*args)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 104, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import lopa.signatures.views.CreateSignature.as_view(). Parent module lopa.signatures.views.CreateSignature does not exist.
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 103, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 321, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/functional.py", line 29, in wrapper
+    result = func(*args)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 104, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import lopa.signatures.views.CreateSignature.as_view(). Parent module lopa.signatures.views.CreateSignature does not exist.
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 8, in <module>
+    url(r'^$', lopa.signatures.views.CreateSignature.as_view(), name='create'),
+NameError: name 'lopa' is not defined
+ERROR Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 8, in <module>
+    url(r'^$', lopa.signatures.views.CreateSignature.as_view(), name='create'),
+NameError: name 'lopa' is not defined
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 195, in get
+    return super(BaseCreateView, self).get(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 153, in get
+    form_class = self.get_form_class()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 97, in get_form_class
+    model = self.get_queryset().model
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/detail.py", line 70, in get_queryset
+    'cls': self.__class__.__name__
+ImproperlyConfigured: CreateSignature is missing a queryset. Define CreateSignature.model, CreateSignature.queryset, or override CreateSignature.get_queryset().
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 195, in get
+    return super(BaseCreateView, self).get(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 153, in get
+    form_class = self.get_form_class()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 98, in get_form_class
+    return model_forms.modelform_factory(model)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 415, in modelform_factory
+    class_name = model.__name__ + str('Form')
+AttributeError: 'Signature' object has no attribute '__name__'
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = response.render()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/response.py", line 80, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/response.py", line 56, in resolve_template
+    return loader.select_template(template)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/loader.py", line 194, in select_template
+    raise TemplateDoesNotExist(', '.join(not_found))
+TemplateDoesNotExist: signatures/signature_form.html
+ERROR Internal Server Error: /list
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 3, in <module>
+    from django.views.generic.edit import CreateView, ListView
+ImportError: cannot import name ListView
+ERROR Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 3, in <module>
+    from django.views.generic.edit import CreateView, ListView
+ImportError: cannot import name ListView
+ERROR Internal Server Error: /list
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = response.render()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/response.py", line 80, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/response.py", line 56, in resolve_template
+    return loader.select_template(template)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/loader.py", line 194, in select_template
+    raise TemplateDoesNotExist(', '.join(not_found))
+TemplateDoesNotExist: signatures/signature_list.html
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 199, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 165, in post
+    return self.form_valid(form)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 127, in form_valid
+    self.object = form.save()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 370, in save
+    fail_message, commit, construct=False)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 87, in save_instance
+    instance.save()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/base.py", line 546, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/base.py", line 650, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/query.py", line 1673, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 937, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/utils/tracking/db.py", line 89, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/backends/util.py", line 41, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 366, in execute
+    six.reraise(utils.DatabaseError, utils.DatabaseError(*tuple(e.args)), sys.exc_info()[2])
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 362, in execute
+    return Database.Cursor.execute(self, query, params)
+DatabaseError: no such table: signatures_signature
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 199, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 165, in post
+    return self.form_valid(form)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 128, in form_valid
+    return super(ModelFormMixin, self).form_valid(form)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 119, in get_success_url
+    "No URL to redirect to.  Either provide a url or define"
+ImproperlyConfigured: No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 9, in <module>
+    class CreateSignature(CreateView):
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 10, in CreateSignature
+    success_url = reverse('create')
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 496, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 382, in _reverse_with_prefix
+    possibilities = self.reverse_dict.getlist(lookup_view)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 297, in reverse_dict
+    self._populate()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 263, in _populate
+    for pattern in reversed(self.url_patterns):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 351, in url_patterns
+    raise ImproperlyConfigured("The included urlconf %s doesn't have any patterns in it" % self.urlconf_name)
+ImproperlyConfigured: The included urlconf lopa.urls doesn't have any patterns in it
+ERROR Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 9, in <module>
+    class CreateSignature(CreateView):
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 10, in CreateSignature
+    success_url = reverse('create')
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 496, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 382, in _reverse_with_prefix
+    possibilities = self.reverse_dict.getlist(lookup_view)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 297, in reverse_dict
+    self._populate()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 263, in _populate
+    for pattern in reversed(self.url_patterns):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 351, in url_patterns
+    raise ImproperlyConfigured("The included urlconf %s doesn't have any patterns in it" % self.urlconf_name)
+ImproperlyConfigured: The included urlconf lopa.urls doesn't have any patterns in it
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 9, in <module>
+    class CreateSignature(CreateView):
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 10, in CreateSignature
+    success_url = reverse('create')
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 496, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 382, in _reverse_with_prefix
+    possibilities = self.reverse_dict.getlist(lookup_view)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 297, in reverse_dict
+    self._populate()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 263, in _populate
+    for pattern in reversed(self.url_patterns):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 351, in url_patterns
+    raise ImproperlyConfigured("The included urlconf %s doesn't have any patterns in it" % self.urlconf_name)
+ImproperlyConfigured: The included urlconf lopa.urls doesn't have any patterns in it
+ERROR Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 9, in <module>
+    class CreateSignature(CreateView):
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 10, in CreateSignature
+    success_url = reverse('create')
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 496, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 382, in _reverse_with_prefix
+    possibilities = self.reverse_dict.getlist(lookup_view)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 297, in reverse_dict
+    self._populate()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 263, in _populate
+    for pattern in reversed(self.url_patterns):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 351, in url_patterns
+    raise ImproperlyConfigured("The included urlconf %s doesn't have any patterns in it" % self.urlconf_name)
+ImproperlyConfigured: The included urlconf lopa.urls doesn't have any patterns in it
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 199, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 165, in post
+    return self.form_valid(form)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 128, in form_valid
+    return super(ModelFormMixin, self).form_valid(form)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+TypeError: get_success_url() takes no arguments (1 given)
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+TypeError: count_signatures() takes no arguments (1 given)
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 10, in <module>
+    from lopa.signatures.utl import cache_status
+ImportError: No module named utl
+ERROR Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 10, in <module>
+    from lopa.signatures.utl import cache_status
+ImportError: No module named utl
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 23, in <module>
+    @never_cache
+NameError: name 'never_cache' is not defined
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in get_response
+    response = middleware_method(request, response)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 133, in process_response
+    smart_unicode(toolbar.render_toolbar() + self.tag))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/toolbar/loader.py", line 98, in render_toolbar
+    return render_to_string('debug_toolbar/base.html', context)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/loader.py", line 139, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: debug_toolbar/base.html
+ERROR Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in get_response
+    response = middleware_method(request, response)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 133, in process_response
+    smart_unicode(toolbar.render_toolbar() + self.tag))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/toolbar/loader.py", line 98, in render_toolbar
+    return render_to_string('debug_toolbar/base.html', context)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/template/loader.py", line 139, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: debug_toolbar/base.html
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 199, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 165, in post
+    return self.form_valid(form)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 127, in form_valid
+    self.object = form.save()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 370, in save
+    fail_message, commit, construct=False)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 87, in save_instance
+    instance.save()
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 12, in save
+    ipdb.set_trace()
+NameError: global name 'ipdb' is not defined
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 199, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 165, in post
+    return self.form_valid(form)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 127, in form_valid
+    self.object = form.save()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 370, in save
+    fail_message, commit, construct=False)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 87, in save_instance
+    instance.save()
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 15, in save
+    state 	= StateCount.objects.get_or_create(state = zipcode.state)
+AttributeError: 'QuerySet' object has no attribute 'state'
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 199, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 165, in post
+    return self.form_valid(form)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 127, in form_valid
+    self.object = form.save()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 370, in save
+    fail_message, commit, construct=False)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 87, in save_instance
+    instance.save()
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 20, in save
+    state 	= StateCount.objects.get_or_create(state = zipcode.state)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/manager.py", line 146, in get_or_create
+    return self.get_query_set().get_or_create(**kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/query.py", line 499, in get_or_create
+    six.reraise(*exc_info)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/query.py", line 489, in get_or_create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/base.py", line 546, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/base.py", line 650, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/query.py", line 1673, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 937, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/utils/tracking/db.py", line 89, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/backends/util.py", line 41, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 364, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 362, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: signatures_statecount.count may not be NULL
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 199, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 165, in post
+    return self.form_valid(form)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 127, in form_valid
+    self.object = form.save()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 370, in save
+    fail_message, commit, construct=False)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 87, in save_instance
+    instance.save()
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 20, in save
+    state 	= StateCount.objects.get_or_create(state = zipcode.state)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/manager.py", line 146, in get_or_create
+    return self.get_query_set().get_or_create(**kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/query.py", line 499, in get_or_create
+    six.reraise(*exc_info)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/query.py", line 489, in get_or_create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/base.py", line 546, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/base.py", line 650, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/query.py", line 1673, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 937, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/utils/tracking/db.py", line 89, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/backends/util.py", line 41, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 364, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 362, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: signatures_statecount.count may not be NULL
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 199, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 165, in post
+    return self.form_valid(form)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 127, in form_valid
+    self.object = form.save()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 370, in save
+    fail_message, commit, construct=False)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 87, in save_instance
+    instance.save()
+  File "/usr/lib/python2.7/bdb.py", line 55, in trace_dispatch
+    return self.dispatch_exception(frame, arg)
+  File "/usr/lib/python2.7/bdb.py", line 97, in dispatch_exception
+    if self.quitting: raise BdbQuit
+BdbQuit
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 199, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 165, in post
+    return self.form_valid(form)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 127, in form_valid
+    self.object = form.save()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 370, in save
+    fail_message, commit, construct=False)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 87, in save_instance
+    instance.save()
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 20, in save
+    state 	= StateCount.objects.get_or_create(state = zipcode.state)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/manager.py", line 146, in get_or_create
+    return self.get_query_set().get_or_create(**kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/query.py", line 499, in get_or_create
+    six.reraise(*exc_info)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/query.py", line 489, in get_or_create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/base.py", line 546, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/base.py", line 650, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/query.py", line 1673, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 937, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/utils/tracking/db.py", line 89, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/backends/util.py", line 41, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 364, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 362, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: signatures_statecount.count may not be NULL
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 199, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 165, in post
+    return self.form_valid(form)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/generic/edit.py", line 127, in form_valid
+    self.object = form.save()
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 370, in save
+    fail_message, commit, construct=False)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/forms/models.py", line 87, in save_instance
+    instance.save()
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 22, in save
+    state.save()
+  File "/home/beatpanda/dev/lopa/lopa/signatures/models.py", line 22, in save
+    state.save()
+  File "/usr/lib/python2.7/bdb.py", line 49, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python2.7/bdb.py", line 68, in dispatch_line
+    if self.quitting: raise BdbQuit
+BdbQuit
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 75, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/decorators.py", line 91, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 29, in count_signatures
+    json_string = json.dumps({'count':count,'states':states})
+  File "/usr/lib/python2.7/json/__init__.py", line 243, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: [<StateCount: StateCount object>, <StateCount: StateCount object>, <StateCount: StateCount object>] is not JSON serializable
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/debug_toolbar/middleware.py", line 80, in process_request
+    urlconf = import_module(getattr(request, 'urlconf', settings.ROOT_URLCONF))
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax
+ERROR Internal Server Error: /count
+Traceback (most recent call last):
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/middleware/common.py", line 69, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 551, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 440, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 319, in resolve
+    for pattern in self.url_patterns:
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/beatpanda/.virtualenvs/lopa/local/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/home/beatpanda/dev/lopa/lopa/urls.py", line 2, in <module>
+    from lopa.signatures.views import *
+  File "/home/beatpanda/dev/lopa/lopa/signatures/views.py", line 30
+    states	= { 'state':state.state, 'count':state.count for state in states }
+         	                                                ^
+SyntaxError: invalid syntax

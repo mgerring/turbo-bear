@@ -45,7 +45,7 @@
         <link rel="stylesheet/less" href="{% get_static_prefix %}css/style.less" />
         <script src="{% get_static_prefix %}js/vendor/less-1.4.1.js"></script>
         {% endif %}
-        <script src="{% get_static_prefix %}js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="{% get_static_prefix %}js/vendor/modernizr.js"></script>
         {% block htmlhead %}{% endblock %}
     </head>
     <body>
@@ -54,6 +54,7 @@
         <![endif]-->
 
         {% block header %}
+        <h1>STOP LOPA</h1>
         {% endblock %}
 
         {% block body %}
@@ -64,7 +65,6 @@
         {% endblock %}
 
         <script data-main="{% get_static_prefix %}js/application.js" src="{% get_static_prefix %}js/vendor/requirejs-2.1.8.js"></script>
-        <script src="{% get_static_prefix %}js/vendor/live.js"></script>
         <script type="text/javascript" charset="utf-8">
           less.env = "development";
           less.watch();
