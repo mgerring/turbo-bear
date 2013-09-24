@@ -130,8 +130,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
-    'lopa.signatures'
-    #'south',
+    'lopa.signatures',
+    'south',
 ]
 
 # A sample logging configuration. The only tangible logging
