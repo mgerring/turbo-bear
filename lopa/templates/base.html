@@ -84,6 +84,12 @@
         {% endblock %}
         </header>
 
+        <ul class="messages">
+            {% for message in messages %}
+            <li class="message {{ message.tags }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+
         <div id="main_content">
         {% block body %}
             <p>Hello world! This is HTML5 Boilerplate.</p>

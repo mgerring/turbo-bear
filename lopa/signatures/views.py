@@ -7,6 +7,7 @@ from lopa.signatures.forms import *
 from lopa.signatures.models import *
 from django.core.urlresolvers import reverse
 from django.views.decorators.cache import cache_page, cache_control
+from django.contrib import messages
 import json
 
 class CreateSignature(CreateView):
@@ -15,6 +16,10 @@ class CreateSignature(CreateView):
 
 	def get_success_url(self):
 		return reverse('create')
+
+	def form_valid(self, form):
+		messages.success(self.request, 'Signature succesfully added!')
+		return super(CreateSignature, self).form_valid(form)
 
 class IndexSignatures(ListView):
 	model 	= Signature

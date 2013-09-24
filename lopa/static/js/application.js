@@ -40,5 +40,6 @@ requirejs(['vendor/jquery','vendor/jquery.color'], function() {
 			});
 		};
 		updateCount(false);
+		$('.message').delay(5000).fadeOut('slow');
 	});
 });

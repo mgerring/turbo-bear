@@ -6,7 +6,6 @@ from lopa.signatures.views import *
 
 urlpatterns = patterns('',
     url(r'^$', CreateSignature.as_view(), name='create'),
-    url(r'^list$', IndexSignatures.as_view(), name='index'),
     url(r'^count$', 'lopa.signatures.views.count_signatures', name='count'),
     # url(r'^crum/', include('crum.foo.urls')),
 

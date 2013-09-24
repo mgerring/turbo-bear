@@ -27,6 +27,42 @@
 	}
 }
 
+.messages {
+	margin:0;
+	padding:0;
+	text-align:center;
+	position:absolute;
+	top:160px;
+	left:0;
+	width:100%;
+	.message {
+		width:66%;
+		margin:0 auto;
+		padding:10px;
+	}
+	.success {
+		background:rgba(0,199,37,0.8);
+	}
+}
+.errorlist {
+	margin:0;
+	padding:0;
+}
+.errorlist > li, .messages > .message {
+	list-style-type:none;
+	font-weight:bold;
+	color:white;
+	border-radius:5px;
+}
+
+.errorlist > li {
+	padding:5px;
+	margin-top:5px;
+	background-color:@red;
+	.grid(12);
+	.last();
+}
+
 #header_image_container {
 	width:9999px;
 }
@@ -83,9 +119,11 @@
 	.field-wrapper {
 		.grid(12);
 		.last();
+		margin-bottom:20px;
 	}
 	label {
 		.grid(3);
+		margin-bottom:0;
 		text-align:right;
 		font-family:'Pathway Gothic One';
 		font-weight:bold;
@@ -116,13 +154,6 @@
 	}
 	.submit-wrapper {
 		text-align:center;
-	}
-	.errorlist {
-		margin:0;
-		padding:0;
-		li {
-			list-style-type:none;
-		}
 	}
 }
 
