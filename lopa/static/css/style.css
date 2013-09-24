@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}
 audio,canvas,video{display:inline-block;}
 audio:not([controls]){display:none;height:0;}
@@ -57,20 +58,21 @@ hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padd
 img{vertical-align:middle;}
 fieldset{border:0;margin:0;padding:0;}
 textarea{resize:vertical;}
-#main_header{height:150px;position:relative;width:100%;overflow:hidden;border-bottom:3px solid #333;margin-bottom:20px;}#main_header h1{color:red;font-size:3em;position:absolute;text-align:center;line-height:150px;top:0;left:0;height:100%;width:100%;}
+#main_header{height:150px;position:relative;width:100%;overflow:hidden;border-bottom:3px solid #333;margin-bottom:20px;}#main_header h1{color:#e01b1b;font-size:5em;position:absolute;text-align:center;line-height:150px;top:0;left:0;height:100%;width:100%;font-family:'Pathway Gothic One';text-shadow:0px 0px 5px rgba(255, 255, 255, 0.6);}
 #header_image_container{width:9999px;}
 #campaign_copy{padding:0 20px;}
 #live_count{margin-right:3.8%;float:left;min-height:1px;width:100%;margin-right:0px;background:#444;color:white;margin-bottom:20px;}
 #signature_count,#leaderboard{margin-right:3.8%;float:left;min-height:1px;width:48.1%;}
-#signature_count{text-align:center;font-size:1.1em;text-transform:uppercase;font-weight:bold;}#signature_count .number{font-size:4em;line-height:1.1em;color:red;width:100%;display:block;}
-#leaderboard{margin:0;padding:0;margin-right:0px;}#leaderboard h2{font-size:1.2em;text-transform:uppercase;margin-bottom:5px;margin-top:3px;color:red;}
+#signature_count{text-align:center;font-size:1.1em;text-transform:uppercase;font-weight:bold;}#signature_count .number{font-size:4em;line-height:1.1em;color:#e01b1b;width:100%;display:block;}
+#leaderboard{margin:0;padding:0;margin-right:0px;}#leaderboard h2{font-size:1.2em;text-transform:uppercase;margin-bottom:5px;margin-top:3px;color:#e01b1b;}
 #leaderboard .states{margin:0 0 0 20px;padding:0;}
 #signature_form{padding:0 20px;}#signature_form .field-wrapper{margin-right:3.8%;float:left;min-height:1px;width:100%;margin-right:0px;}
-#signature_form label{margin-right:3.8%;float:left;min-height:1px;width:22.150000000000002%;text-align:right;}
+#signature_form label{margin-right:3.8%;float:left;min-height:1px;width:22.150000000000002%;text-align:right;font-family:'Pathway Gothic One';font-weight:bold;text-transform:uppercase;}
 #signature_form input[type="text"],#signature_form input[type="textarea"],#signature_form select{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;margin:0;padding:0;margin-right:3.8%;float:left;min-height:1px;width:74.05%;margin-right:0px;}
-#signature_form input[type="submit"]{width:500px;margin:0 auto;}
+#signature_form input[type="submit"]{width:40%;margin:0 auto;background:#e01b1b;border:none;border-radius:5px;height:40px;line-height:40px;font-family:'Pathway Gothic One';color:white;text-transform:uppercase;font-weight:bold;font-size:2em;}
+#signature_form .submit-wrapper{text-align:center;}
 #signature_form .errorlist{margin:0;padding:0;}#signature_form .errorlist li{list-style-type:none;}
-.clearfix{zoom:1;}.clearfix:before,.clearfix:after{content:" ";display:table;}
+@media screen and (min-width:48em){#campaign_copy{margin-right:3.8%;float:left;min-height:1px;width:39.449999999999996%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;} #petition{margin-right:3.8%;float:left;min-height:1px;width:56.75%;margin-right:0px;}}.clearfix{zoom:1;}.clearfix:before,.clearfix:after{content:" ";display:table;}
 .clearfix:after{clear:both;}
 .chromeframe{margin:0.2em 0;background:#ccc;color:#000;padding:0.2em 0;}
 @media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important;} a,a:visited{text-decoration:underline;} a[href]:after{content:" (" attr(href) ")";} abbr[title]:after{content:" (" attr(title) ")";} .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:"";} pre,blockquote{border:1px solid #999;page-break-inside:avoid;} thead{display:table-header-group;} tr,img{page-break-inside:avoid;} img{max-width:100% !important;} @page {margin:0.5cm;}p,h2,h3{orphans:3;widows:3;} h2,h3{page-break-after:avoid;}}

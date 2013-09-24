@@ -10,18 +10,20 @@
 	<p><strong>Sign the petition and tell Congress to put LOPA where it belongs &mdash; in the litter box.</strong></p>
 </div>
 
-<div id="live_count">
-	<div id="signature_count">
-		<span class="number">0</span> signatures so far
+<div id="petition">
+	<div id="live_count">
+		<div id="signature_count">
+			<span class="number">0</span> signatures so far
+		</div>
+
+		<div id="leaderboard">
+			<h2>Top States:</h2>
+			<ul class="states">
+			</ul>
+		</div>
 	</div>
 
-	<div id="leaderboard">
-		<h2>Top States:</h2>
-		<ul class="states">
-		</ul>
-	</div>
+	{% include 'signatures/_form.html' %}
 </div>
-
-{% include 'signatures/_form.html' %}
 
 {% endblock %}
